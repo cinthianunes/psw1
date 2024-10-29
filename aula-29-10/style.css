@@ -3,8 +3,8 @@ body {
   }
   
   p {
-    color: rgb(29, 0, 192);
-    text-align: center;
+    color: black;
+    text-align: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
   }

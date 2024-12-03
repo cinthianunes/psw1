@@ -1,0 +1,90 @@
+ body{
+    background-color: plum;
+ }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+  }
+  
+  #f2 {
+    background-color: plum;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="number"],
+  input[type="range"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  input[type="week"],
+  input[type="file"],
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  
+  input[type="color"] {
+    width: 10%;
+    border: none;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input[type="reset"],
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="reset"],
+  input[type="submit"] {
+    background-color: rgb(243, 171, 250);
+    color: black;
+  }
+  
+  input[type="reset"]:hover,
+  input[type="submit"]:hover {
+    opacity: 0.8;
+  }
